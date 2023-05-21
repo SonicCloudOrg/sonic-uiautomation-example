@@ -15,7 +15,10 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
+=======
         
+>>>>>>> db5bda20a5d4c1c4f87815377b9e3dcac8fe31a4
         <dependency>
             <groupId>io.github.soniccloudorg</groupId>
             <artifactId>sonic-driver-core</artifactId>
