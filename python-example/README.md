@@ -2,12 +2,13 @@
 
 ## Install
 
-Android Driver:
+#### Android Driver
 ```bash
 pip install -U sonic-uia2-client
 ```
+Doc: [SonicCloudOrg/sonic-uiautomator2-python-client](https://github.com/SonicCloudOrg/sonic-uiautomator2-python-client)
 
-iOS Driver:
+#### iOS Driver
 ```bash
 pip3 install -U facebook-wda
 ```
