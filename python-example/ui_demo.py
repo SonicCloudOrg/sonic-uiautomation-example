@@ -11,10 +11,15 @@ class TestDriver:
         self.package_name = "com.android.settings"
 
     def test_demo(self):
+        # connect device
         os.system("adb connect {}".format(self.adb_url))
+        
+        # launch App
         os.system(
             "adb -s {} shell monkey -p {} -c android.intent.category.LAUNCHER 1".format(self.adb_url,
                                                                                         self.package_name))
+        
+        # connect remote uia2 server
         driver = AndroidDriver(self.uia_url)
         p = driver.get_page_source()
         print(p)
