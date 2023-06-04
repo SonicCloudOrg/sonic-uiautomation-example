@@ -8,8 +8,8 @@ import org.junit.*;
 public class DemoUITest {
     // Test Data
     static AndroidDriver androidDriver;
-    static String adbUrl = "192.168.0.9:49858";
-    static String uiaUrl = "http://192.168.0.9:7777/uia/49860";
+    static String adbUrl = "192.168.0.9:64196";
+    static String uiaUrl = "http://192.168.0.9:7777/uia/64197";
     static String appPackage = "com.android.settings";
 
     @Before
